@@ -29,6 +29,7 @@ void _swap(List<int> list, int i, int j) {
 
 void main() {
   List<int> numbers = [10, 7, 8, 9, 1, 5];
+  // numbers.sort((a, b) => a.compareTo(b));
   quickSort(numbers, 0, numbers.length - 1);
   print('Sorted array: $numbers');
 }
